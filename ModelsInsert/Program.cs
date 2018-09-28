@@ -141,12 +141,10 @@ namespace ModelsInsert
             {
                 if (i == users2.Count - 1)
                 {
-                    //ms.Add($"{numbers2[i]}-{numbers[0]}");
                     users[i].MarkerGuid = users2[0].ID;
                 }
                 else
                 {
-                    //ms.Add($"{numbers2[i]}-{numbers[i + 1]}");
                     users[i].MarkerGuid = users2[i+1].ID;
                 }
             }
